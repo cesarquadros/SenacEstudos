@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;formularios.FrmPrincipal&apos; to &apos;FrmAgendamento&apos;&#x0D;&#x0A;- Original project: &apos;AgendaBarbeiro&apos;&#x0D;&#x0A;- Original element: &apos;formularios.FrmPrincipal&apos;&#x0D;&#x0A;- Renamed element: &apos;formularios.FrmAgendamento&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FrmPrincipal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;formularios{FrmPrincipal.java[FrmPrincipal" matchStrategy="1" name="FrmAgendamento" qualified="false" references="true" similarDeclarations="false" stamp="1462029965259" textual="false" version="1.0"/>
+</session>

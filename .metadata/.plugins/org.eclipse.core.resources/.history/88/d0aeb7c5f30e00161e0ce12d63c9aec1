@@ -1,0 +1,61 @@
+package formularios;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+
+public class FrmPrincipal {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					FrmPrincipal window = new FrmPrincipal();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public FrmPrincipal() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblConsultarClientecpf = new JLabel("Consultar cliente(CPF)");
+		lblConsultarClientecpf.setBounds(10, 65, 125, 14);
+		frame.getContentPane().add(lblConsultarClientecpf);
+		
+		JButton btnClientes = new JButton("Clientes");
+		btnClientes.setBounds(10, 103, 89, 23);
+		frame.getContentPane().add(btnClientes);
+		
+		JButton btnRealizarAgendamentos = new JButton("Realizar agendamentos");
+		btnRealizarAgendamentos.setBounds(120, 103, 145, 23);
+		frame.getContentPane().add(btnRealizarAgendamentos);
+		
+		JButton btnGerarReltorios = new JButton("Gerar rel\u00E1torios");
+		btnGerarReltorios.setBounds(279, 103, 145, 23);
+		frame.getContentPane().add(btnGerarReltorios);
+	}
+}
