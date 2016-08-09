@@ -1,0 +1,5 @@
+<p>		Paragrafo
+</br>	Quebra de linha
+<i> 	Italico
+<b> 	Negrito
+<link>	usado junt com o rel() + type(tipo)
