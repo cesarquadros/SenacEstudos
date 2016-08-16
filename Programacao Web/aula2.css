@@ -1,0 +1,45 @@
+span{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #000;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+p{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	position: relative;
+}
+
+.feijao{
+	background: hsl(30, 100%, 30%);
+}
+
+.arroz{
+	background: hsl(60, 100%, 80%);
+}
+
+.carne{
+	background: hsl(0, 100%, 40%);
+}
+
+.frango{
+	background: hsl(50, 100%, 30%) url("http://perfecta.itwfeg.com.br/blog/wp-content/uploads/2012/05/frango-bateria.jpg");
+	background-size: contain;
+}
+
+.arroz.frio{
+	background: hsl(80, 10%, 90%);
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+
+}
+
+p#pratoA span.feijao{
+	width: 60px;
+	height: 60px;
+}
