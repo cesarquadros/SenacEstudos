@@ -12,3 +12,7 @@
 &le;	= simbolo menor ou igual
 &ge;	= simbolo maior ou igual
 <del></del>
+<a href="caminho da pagina">Multimídia</a>
+<ul></ul> lista sem ordenação
+<ol></ol> lista ordenada
+<nav> </nav> seleciona um bloco, exemplo o MENU
