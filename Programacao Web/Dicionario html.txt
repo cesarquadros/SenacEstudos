@@ -15,13 +15,15 @@
 <a href="		= caminho da pagina">Multimídia</a>
 <ul></ul> 		= lista sem ordenação
 <ol></ol> 		= lista ordenada
-<nav> </nav>	= seleciona um bloco, exemplo o MENU
 margin = cima dir baixo esq	= ajustar posição atraves da margem 
 border-bottom: largura cor estilo da borda;
-section			= parte primaria
-aside			= secundaria
-footer			= rodapé
-</caption>		=
+<nav> </nav>	= seleciona um bloco, exemplo o MENU
+<header>		= cabeçalho
+<section>		= parte primaria
+<aside>			= secundaria
+<footer>		= rodapé
+<article>		= artigos
+</caption>		= 
 <table>			= tabela
 <tr>			= linhas
 <td>			= celulas
