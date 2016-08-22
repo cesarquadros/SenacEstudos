@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web';
 @font-face{
 	font-family: 'FonteLogo';
@@ -26,7 +26,7 @@ a:hover{
 
 /*Formatação de imagens com legendas*/
 figure.foto-legenda {
-	position: relative;
+  position: relative;
   border: 8px solid white;
   box-shadow: 1px 1px 4px black;
 }

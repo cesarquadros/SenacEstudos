@@ -33,7 +33,7 @@ p{
 
 .arroz.frio{
 	background: hsl(80, 10%, 90%);
-	position: absolute;
+	position: absolute;	
 	right: 10px;
 	bottom: 10px;
 
@@ -41,4 +41,27 @@ p{
 p#pratoA span.feijao{
 	width: 60px;
 	height: 60px;
-}}
+}
+
+
+body{
+
+
+}
+
+p{
+	height: 100px;
+	width: 100px;
+	border: 3px solid hsl(0, 100%, 20%)
+
+
+}
+
+div#mesa{
+	border: 3px solid hsl(360, 40%, 20%);
+	height: 400px;
+	width: 400px;
+	background: url("https://image.freepik.com/fotos-gratis/texturas-de-madeira_2784218.jpg");
+	background-size: contain;
+	position: relative;
+}
