@@ -1,0 +1,50 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+nav#menu{
+	top: 0px;
+	background: green;
+	height: 60px;
+	left: 0px;
+	right: 0px;
+	position: fixed;
+
+}
+
+nav#menu:hover li:hover{
+	background: red;
+	transition: 2s;
+	width: 100px;
+}
+
+nav#menu li {
+	border: 2px solid black;
+	display: inline-block;
+	height: 30px;
+	width: 60px;
+	transition: 3s;
+}
+
+aside{
+	position: fixed;
+	top: 60px;
+	bottom: 0px;
+	right: 0px;
+	width: 400px;
+	background: blue;
+}
+
+main {
+	top: 100px;
+	background: red;
+	width: 100px;
+	height: 100px;
+	color: black;
+}
+
+
+
+
+	

@@ -1,0 +1,15 @@
+position:	static
+		relative - movimentos pequenos
+		absolute - se baseia no ultimo ancestral que n„o seja static
+		fixed	- se baseia no navgador e n„O se move
+
+position: left, right, top, botton / display / paddingouMargin / width, heigth
+d
+-------------------------------------------------------------------------------
+display - controla como os elementos ser„o exibidos na tela
+tipos: in line 	= quebra qnd termina a pagina 
+in line block 	= È solido, n„o quebra a p·gina
+block		= n„o aceita texto na mesma linha
+none		= n„o aparece na tela
+-------------------------------------------------------------------------------
+
