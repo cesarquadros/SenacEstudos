@@ -1,0 +1,11 @@
+
+public class Coordernador extends Funcionario {
+
+	public Funcionario(String nome, String cpf, int salario) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.salario = salario;
+	}
+
+}
