@@ -1,0 +1,10 @@
+
+public class Professor extends Funcionario {
+
+	public Professor(String nome, String cpf, int salario) {
+		super(nome, cpf, salario);
+
+	}
+
+	
+}

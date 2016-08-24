@@ -15,6 +15,7 @@ public class Professor extends Funcionario {
 
 	public void setTipoContratacao(String tipoContratacao) {
 		this.tipoContratacao = tipoContratacao;
-	}
+	}	
+
 	
 }

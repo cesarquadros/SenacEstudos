@@ -8,13 +8,4 @@ public class Coordernador extends Funcionario {
 		this.departamento = departamento;
 	}
 
-	public String getDepartamento() {
-		return departamento;
-	}
-	public void setDepartamento(String departamento) {
-		this.departamento = departamento;
-	}
-	
-	
-				
 }

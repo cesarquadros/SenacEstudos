@@ -1,0 +1,9 @@
+
+public class Coordernador extends Funcionario {
+
+	private String departamento;
+	public Coordernador(String nome, String cpf, int salario) {
+		super(cpf, cpf, salario);
+	}
+
+}
