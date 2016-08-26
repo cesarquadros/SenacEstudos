@@ -34,6 +34,18 @@ public class ExerciciosAula3 {
 		return maior;
 	}
 	
+	static boolean comprarSequencia(int vetorA[], int vetorB[]){
+		
+		for (int i = 0; i < vetorB.length; i++) {
+			for (int j = 0; j < vetorB.length; j++) {
+				if(vetorA[i]== vetorB[j] && vetorA[i+1]==vetorB[j+1]){
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
 	public static void main(String[] args) {
 
 		// imprimir invertido
@@ -54,11 +66,18 @@ public class ExerciciosAula3 {
 		
 		//pesquisa inteiro
 		int vetorInt[]= {5,7,9,6,4};
-		System.out.println(pesquisarInteiro(vetorInt, 9));		
-		System.out.println(pesquisarInteiro(vetorInt, 11));
+		System.out.println("Encontrado: "+pesquisarInteiro(vetorInt, 9));		
+		System.out.println("Encontrado: "+pesquisarInteiro(vetorInt, 11));
 		
 		//retorna o maior numero do vetor
 		System.out.println("O número maior é: "+acharMaior(vetorInt));
+		
+		//comprar se um vetor possui uma sequencia iagual do outro
+		
+		int vatorA[] = {1,2,3,4,5};
+		int vatorB[] = {4,12,6,7,11};
+		
+		System.out.println("possui sequencia: "+ comprarSequencia(vatorA, vatorB));
 		
 	}
 	
