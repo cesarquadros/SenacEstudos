@@ -9,10 +9,8 @@ package br.senac.tads3.agenda;
  *
  * @author cesar.cquadros1
  */
-public class Agenda {
+public class Agenda extends ConexaoBD{
     public static void main(String args[]){
-        
-        System.out.println("Hello pokemon");
-      
+              
     }
 }
