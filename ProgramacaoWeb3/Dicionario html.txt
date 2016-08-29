@@ -1,0 +1,29 @@
+<p>				= Paragrafo
+</br>			= Quebra de linha
+<i> 			= Italico
+<b> 			= Negrito
+<link>			= usado junto com o rel() + type(tipo)
+<!-- comentar -> 
+&nbsp;			= espaço lateral
+<wbr/>			= usado para quebrar palavras caso não caiba na tela
+&shy;	= usado para quebrar palavras caso não caiba na tela e adiciona o "-""
+&lt;			= <
+&gt;			= >
+&le;			= simbolo menor ou igual
+&ge;			= simbolo maior ou igual
+<del></del>
+<a href="		= caminho da pagina">Multimídia</a>
+<ul></ul> 		= lista sem ordenação
+<ol></ol> 		= lista ordenada
+margin = cima dir baixo esq	= ajustar posição atraves da margem 
+border-bottom: largura cor estilo da borda;
+<nav> </nav>	= seleciona um bloco, exemplo o MENU
+<header>		= cabeçalho
+<section>		= parte primaria
+<aside>			= secundaria
+<footer>		= rodapé
+<article>		= artigos
+</caption>		= 
+<table>			= tabela
+<tr>			= linhas
+<td>			= celulas

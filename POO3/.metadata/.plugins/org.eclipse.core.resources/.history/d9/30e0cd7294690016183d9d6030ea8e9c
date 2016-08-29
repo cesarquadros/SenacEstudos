@@ -1,0 +1,11 @@
+
+public class Seguranca extends Funcionario{
+
+	public Seguranca(String nome, String cpf, int salario) {
+		super(nome, cpf, salario);
+
+	}
+	
+	
+
+}

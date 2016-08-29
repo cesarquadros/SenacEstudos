@@ -1,0 +1,82 @@
+
+body{
+	display: inline-block;
+	background: url("http://wallpaper.ultradownloads.com.br/68515_Papel-de-Parede-Piso-de-Madeira_1920x1200.jpg");
+
+}
+
+span{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+p{
+	width: 450px;
+	height: 380px;
+	border: 1px solid #000;
+	border-radius: 20%;
+	position: relative;
+	background: url("http://www.casagersal.com.br/novo/mostra_foto_canvas.php?w=200&h=200&i=http://www.casagersal.com.br/novo/static/site/img/fotos/foto_2012-09-18_08-41-43.jpg");
+	display: inline-block;
+	right: -200px;
+	top: 150px;
+}
+
+/*Primeiro Prato*/
+.feijao{
+	background: hsl(30, 100%, 30%) url("http://www.correiodolago.com.br/site/up/noticia/thumb/24cefede8735bfebb8369ca692f3828f.jpg");
+	background-size: contain;
+	position: absolute;	
+	right: 180px;
+	bottom: 30px;
+}
+
+.arroz.frio{
+	background: hsl(80, 10%, 90%);
+	position: absolute;	
+	right: 50px;
+	bottom: 250px;
+	background: hsl(50, 100%, 30%) url("https://zonacerealista.com.br/media/catalog/product/cache/1/thumbnail/100x100/4f7383aebaf6453ae95bef1bf99a546b/i/m/img10592.jpg.jpg");
+}
+
+.carne{
+	background: hsl(0, 100%, 40%) url("http://infohow.net/index.php-src=images-stories-2014-10-kak-prigotovit-steyk-iz-govyadiny.jpg&w=100&h=100&ext=.jpg");
+	background-size: contain;
+	position: absolute;	
+	right: 300px;
+	bottom: 250px;
+}
+
+/*Segundo Prato*/
+
+.arroz{
+	background: hsl(60, 100%, 80%) url("http://1.bp.blogspot.com/-AS6YPLARhvc/U9rwPa6rt_I/AAAAAAAABGA/d0e_iNqkQ9E/s100-c/Arroz+B%C3%A1sico.jpg");
+	background-size: contain;
+	position: absolute;	
+	right: 180px;
+	bottom: 250px;
+}
+
+.frango{
+	background: hsl(50, 100%, 30%) url("https://yt3.ggpht.com/-z2DmWmddMSI/AAAAAAAAAAI/AAAAAAAAAAA/XsCENj1Z2SY/s100-c-k-no-rj-c0xffffff/photo.jpg");
+	background-size: contain;
+	position: fixed;	
+	right: 550px;
+	bottom: 350px;
+}
+
+p#pratoA span.feijao{
+	width: 90px;
+	height: 90px;
+	background: hsl(50, 100%, 30%) url("http://www.aratuonline.com.br/wp-content/uploads/2016/06/feij%C3%A3o1-100x100.jpg");
+	position: absolute;	
+	right: 50px;
+	bottom: 30px;
+
+}
+p#pratoA{
+	right: -450px;
+}
