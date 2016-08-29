@@ -1,4 +1,4 @@
-HTML 5
+﻿HTML 5
 
 <p>				= Paragrafo
 </br>			= Quebra de linha
@@ -32,7 +32,19 @@ border-bottom: largura cor estilo da borda;
 onmousemove		= evento de passar o mouse
 onclick			= evento de Click
 
------------------------------------------------------------------------------------------
+
+position:	static
+		relative - movimentos pequenos
+		absolute - se baseia no ultimo ancestral que não seja static
+		fixed 	- se baseia no navgador e nãO se move
+
+position: 	= left, right, top, botton / display / paddingouMargin / width, heigth
+display 	= controla como os elementos serão exibidos na tela
+tipos: in line 	= quebra qnd termina a pagina 
+in line block 	= é solido, não quebra a página
+block		= não aceita texto na mesma linha
+none		= não aparece na tela
+
 
 JAVA SCRIPT
 

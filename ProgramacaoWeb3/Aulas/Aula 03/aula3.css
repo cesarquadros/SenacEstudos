@@ -1,0 +1,105 @@
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+/* MENU PRINCIPAL */
+header{
+	display: inline-block;
+	position: fixed;
+	height: 20px;
+	left:0px;
+	right:0px;
+	top: -50px;
+	padding: 20px;
+	background: hsla(180,50%, 0%, 0.5);
+	transition: 1s cubic-bezier(.98,.02,.07,1.59);
+}
+
+header:hover{
+	top: 0px;
+}
+
+header button{
+	line-height: 14px;
+	font-size: 12px;
+	border: 0px;
+	padding: 3px;
+	background: hsl(120,0%, 70%);
+	width: 20px;
+	transition: background 2s, width 1s;
+}
+
+header button:last-of-type{
+	position: absolute;
+	right: 20px;
+}
+
+header button:hover{
+	background: hsl(120,100%, 70%);
+	cursor: pointer;
+	width: 200px;
+}
+
+header button:last-of-type:hover{
+	background: hsl(0,100%,50%);
+}
+
+
+
+/* TEXTO LATERAL */
+
+aside{
+	position: fixed;
+	top: 60px;
+	bottom: 0px;
+	right: 0px;
+	width: 400px;
+	background: hsla(180,50%, 30%, 1);
+	z-index: -1;
+}
+
+aside>div{
+	position: absolute;
+	width: 300px;
+	height: 232px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+
+/* CONTEUDO */
+main{
+	margin-right: 400px;
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+article{
+	background: hsl(30,100%, 80%);
+	margin: 40px;
+	min-height: 80px;
+}
+
+@media (orientation:portrait){
+	aside{
+		background: hsl(30, 100%, 50%);
+	}
+	
+	body{
+		background: hsl(30, 100%, 0%);
+	}
+}
+
+
+
+
+
+
+
+
+
