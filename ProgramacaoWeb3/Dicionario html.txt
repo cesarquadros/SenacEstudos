@@ -1,3 +1,5 @@
+HTML 5
+
 <p>				= Paragrafo
 </br>			= Quebra de linha
 <i> 			= Italico
@@ -6,7 +8,7 @@
 <!-- comentar -> 
 &nbsp;			= espaço lateral
 <wbr/>			= usado para quebrar palavras caso não caiba na tela
-&shy;	= usado para quebrar palavras caso não caiba na tela e adiciona o "-""
+&shy;			= usado para quebrar palavras caso não caiba na tela e adiciona o "-""
 &lt;			= <
 &gt;			= >
 &le;			= simbolo menor ou igual
@@ -19,11 +21,18 @@ margin = cima dir baixo esq	= ajustar posição atraves da margem
 border-bottom: largura cor estilo da borda;
 <nav> </nav>	= seleciona um bloco, exemplo o MENU
 <header>		= cabeçalho
-<section>		= parte primaria
-<aside>			= secundaria
+<section>		= parte principal do site
+<aside>			= parte secundaria so site
 <footer>		= rodapé
 <article>		= artigos
 </caption>		= 
 <table>			= tabela
 <tr>			= linhas
 <td>			= celulas
+onmousemove		= evento de passar o mouse
+onclick			= evento de Click
+
+-----------------------------------------------------------------------------------------
+
+JAVA SCRIPT
+
