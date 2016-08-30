@@ -1,4 +1,9 @@
-﻿HTML 5
+﻿CSS
+
+text-shadow		= sombra no texto
+
+
+HTML 5
 
 <p>				= Paragrafo
 </br>			= Quebra de linha
