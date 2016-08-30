@@ -32,7 +32,6 @@ border-bottom: largura cor estilo da borda;
 onmousemove		= evento de passar o mouse
 onclick			= evento de Click
 
-
 position:	static
 		relative - movimentos pequenos
 		absolute - se baseia no ultimo ancestral que não seja static
@@ -45,6 +44,5 @@ in line block 	= é solido, não quebra a página
 block		= não aceita texto na mesma linha
 none		= não aparece na tela
 
-
-JAVA SCRIPT
+<action>	= endereço que vai mandar os dados do formulários
 

@@ -1,0 +1,34 @@
+<!DOCTYPE <html>
+<head>
+	<title>Carta para Papai Noel</title>
+</head>
+<body>
+
+	<form action="sistemaNatal.java" method="post" enctype="multpart/form=data">
+
+		<label>Foto</label>
+		<input type="file" name="foto"/>
+
+		<label for="userNome">Qual seu nome:</label>
+		<input required="required" placeholder="Apenas letras" type="text" name="nome" id="userNome" pattern="[A-Za-z]*"/>
+		
+		<label for="idade">Idade</label>
+		<input required="required" placeholder="Sua idade" type="number" name="idade" id="idade"/>
+		
+		<label for="bom">Bom</label>
+		<input required="required" type="checkbox" name="bom" value="true" id="bom"/>
+		
+		<label for="presente">Presente</label>
+		<select required="required" placeholder="Qual presente quer?" name="presente" id="presente"/>
+			<option value="">Iphone20</option>
+			<option value="game">Game</option>
+			<option value="boneca">Boneca</option>
+			<option value="bola">Bola</option>
+		</select>
+
+		<button type="submit">Fazer Pedido</button>
+		<button type="reset">Limpar</button>
+	</form>
+
+</body>
+</html>	
